@@ -1,0 +1,10 @@
+h1, p {
+	color:white;
+	font-family:cursive;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+body {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Front_Street%2C_Ogallala%2C_Nebraska%2C_2007.jpg/1280px-Front_Street%2C_Ogallala%2C_Nebraska%2C_2007.jpg");
+	background-repeat: no-repeat;
+}
