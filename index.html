@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-  <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  <body>
+  <body class="container">
     <h1>Hangman</h1>
     <div id="header">
       <p>
         Choose new word: <input id='customWord'>
         <button type="button" onclick="setupCustomWord()">Restart</button>
+      </p>
+      <p>
         <button type="button" onclick="setup()">Restart with random word</button>
         <button type="button" onclick="setupRandomWord()">Restart with random word (hard mode)</button>
       </p>
